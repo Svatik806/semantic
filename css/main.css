@@ -1,0 +1,21 @@
+.main_container {
+  width: 100%;
+  max-width: 909px;
+  margin: 0 auto;
+}
+.main_section--first, .main_section--second, .main_section--third {
+  margin-bottom: 8.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 65px;
+}
+.main_section--first .main_item--lifestyle, .main_section--second .main_item--lifestyle, .main_section--third .main_item--lifestyle {
+  margin-bottom: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.09px;
+  text-align: left;
+  color: #b4ad9e;
+}/*# sourceMappingURL=main.css.map */

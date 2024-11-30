@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header_container {
+  width: 100%;
+  text-align: center;
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header_navigation {
+  margin-top: 4.438rem;
+  margin-bottom: 5.75rem;
+}
+.header_navigation--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header_navigation--item a {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Playfair Display", sans-serif;
+  display: inline-block;
+  list-style: none;
+}
+.header_navigation--item a:hover {
+  color: #03a9f4;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 909px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main_section--first, .main_section--second, .main_section--third {
+  margin-bottom: 8.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 65px;
+}
+.main_section--first .main_item--lifestyle, .main_section--second .main_item--lifestyle, .main_section--third .main_item--lifestyle {
+  margin-bottom: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.09px;
+  text-align: left;
+  color: #b4ad9e;
+}
+.main_section--first .main_item--title, .main_section--second .main_item--title, .main_section--third .main_item--title {
+  margin-bottom: 40px;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39.99px;
+  text-align: left;
+  color: #626262;
+}
+.main_section--first .main_item--title:hover, .main_section--second .main_item--title:hover, .main_section--third .main_item--title:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline 3px solid red;
+          text-decoration: underline 3px solid red;
+}
+.main_section--first .main_item--description, .main_section--second .main_item--description, .main_section--third .main_item--description {
+  max-width: 420px;
+}
+
+@media screen and (max-width: 348px) {
+  .header_navigation--list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    gap: 10px;
+  }
+  .header_navigation--item a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .main_container {
+    gap: 40px;
+  }
+  .main_section--first,
+  .main_section--second, .main_section--third {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+    gap: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+.main {
+  &_container {
+    width: 100%;
+    max-width: 909px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  &_section--first,
+  &_section--second,
+   &_section--third{
+    margin-bottom: 8.125rem;
+    display: flex;
+    gap:65px;
+   
+    .main_item{
+      &--lifestyle{
+        margin-bottom: 32px;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16.09px;
+        text-align: left;
+        color: #b4ad9e;
+      }
+      &--title{
+        margin-bottom: 40px;
+        font-family: "Playfair Display", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 39.99px;
+        text-align: left;
+        color: #626262;
+
+        &:hover{
+          cursor: pointer;
+          text-decoration: underline 3px solid red;
+        }
+      }
+
+      &--description {
+        max-width: 420px;
+      }
+    }
+  }
+}
